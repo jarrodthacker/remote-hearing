@@ -1,0 +1,143 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+#skip-link a {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  overflow: hidden;
+  height: 1px;
+}
+
+#skip-link a:focus {
+  position: static !important;
+  clip: auto;
+  overflow: visible;
+  height: auto;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+body {
+  font-family: "Fira Sans", sans-serif;
+}
+
+a {
+  color: #32608f;
+  font-weight: 600;
+}
+a:hover {
+  color: #182d43;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+h1 {
+  font-size: 2.111em;
+}
+
+h2 {
+  font-size: 1.666em;
+}
+
+h3 {
+  font-size: 1.333em;
+}
+
+h4 {
+  font-size: 1em;
+}
+
+h5 {
+  font-size: 0.799em;
+}
+
+h6 {
+  font-size: 0.799em;
+}
+
+@media screen and (min-width: 769px) {
+  h1 {
+    font-size: 2.388em;
+  }
+
+  h2 {
+    font-size: 2.111em;
+  }
+
+  h3 {
+    font-size: 1.666em;
+  }
+
+  h4 {
+    font-size: 1.333em;
+  }
+
+  h5 {
+    font-size: 1em;
+  }
+
+  h6 {
+    font-size: 0.799em;
+  }
+}
+.text-smaller {
+  font-size: 0.9em !important;
+}
+
+/*# sourceMappingURL=/style.e0c02e61.css.map */
